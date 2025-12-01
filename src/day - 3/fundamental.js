@@ -42,6 +42,9 @@ let numvalue = "123";
    let strvalue2 =String(strnum);
    console.log(strnum)
 
+<<<<<<< HEAD
 
 
    
+=======
+>>>>>>> 3b58791a96e014c6ee28f01411f50ae1de8729aa
