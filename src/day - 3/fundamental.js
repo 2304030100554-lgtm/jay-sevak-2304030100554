@@ -34,12 +34,10 @@ console.log(typeof 0);
 console.log(typeof 10n);
 
 // Type conversion
-// let strvalue = "123";
-//  strvalue = Number(strvalue);
-// console.log(typeof strvalue);// number 
+let strvalue = "123";
+  strvalue = Number(strvalue);
+ console.log(typeof strvalue);// number 
 
-// let numvalue = 456;
+ let numvalue = 456;
+  
 
- 
-
-//
