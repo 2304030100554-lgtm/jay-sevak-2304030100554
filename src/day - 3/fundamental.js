@@ -183,7 +183,7 @@ const drive = (age) => {
   }
 };
 
-console.log(drive(10));
+console.log(drive());
 
 
 
