@@ -36,9 +36,10 @@ class ValidationError extends Error {
 }
 
 try{
-    throw new ValidationError("Username is requried");
+    throw new ValidationError("Username is requried"  );
 } catch(err) {
     console.log(err.name);  // ValidationError
     console.log(err.message); // Username is required
     console.log(err.stack); // where the error occurred
 }
+
