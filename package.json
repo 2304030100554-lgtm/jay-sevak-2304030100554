@@ -2,6 +2,7 @@
     "name": "staytuned-labs-intern",
     "version": "1.0.0",
     "description": "Internship repository for StaytunedLABS projects.",
+    "type": "module",
     "main": "src/hello-intern.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
