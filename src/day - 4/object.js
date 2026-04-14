@@ -20,8 +20,8 @@ console.log(obj[0]);
 
 // object assing a number
 let obj2 = {};
-obj.__photo__ = 5;
-console.log(obj.__photo__);
+obj2.__photo__ = 5;
+console.log(obj2.__photo__);
 
 // The "foo..in" loop
 let client = {
@@ -31,11 +31,11 @@ let client = {
     isAdmin: true
 };
 
-for(let key in user){
+for(let key in client){
     //keys
     console.log(key);
     // value for a key
-    console.log( user[key] )
+    console.log( client[key] )
 };
 
 //Nested cloning

@@ -34,10 +34,10 @@ function sayHi() {
     console.log( this.name );
 }
 
-user.f = sayHi;
+user2.f = sayHi;
 admin.f = sayHi;
 
-user.f(); // John  (this == user)
+user2.f(); // John  (this == user)
 admin.f(); // Admin  (this == admin)
 admin['f']();
 

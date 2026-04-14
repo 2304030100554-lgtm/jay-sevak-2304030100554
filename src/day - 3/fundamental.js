@@ -20,9 +20,9 @@ let numvalue = "123";
 let numConverted = Number(numvalue);
 console.log(typeof numConverted);
 
-let strnum = 456;
-let strvalue2 = String(strnum);
-console.log(typeof strvalue2);
+let strnum1 = 456;
+let strvalue12 = String(strnum1);
+console.log(typeof strvalue12);
 
 let boolnvalue = true;
 console.log(typeof boolnvalue);
@@ -99,7 +99,7 @@ do {
 } while (x < 3);
 
 // for loop
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 
@@ -184,13 +184,4 @@ const drive = (age) => {
   }
 };
 
-console.log(drive());
-
-
-
-  strvalue = Number(numvalue);
- console.log(typeof numvalue);// number 
-
- let strnum = 456;
-   let strvalue2 =String(strnum);
-   console.log(strnum)
+console.log(drive(25));

@@ -1,34 +1,50 @@
-# 🚀 StaytunedLABS Internship Repository: Welcome!
+# JavaScript Learning Repository
 
-We are excited to welcome you to StaytunedLABS! This repository is your home base for the internship, containing all the code and documentation you need.
+This repository contains my JavaScript learning work, organized by day and topic. It is a personal record of practice and examples while learning core JavaScript concepts.
 
-## 🌟 Our Focus
+## What this repo shows
 
-Our mission is to **empower India's educational institutes** and drive innovation.
+- Basic JavaScript syntax and data types
+- Variables, operators, and type conversion
+- Control flow with conditionals and loops
+- Functions, scope, and arrow functions
+- Objects, methods, and `this`
+- Prototypes, inheritance, and constructor functions
+- Modern JavaScript features like optional chaining and symbols
 
-You are joining a community dedicated to collective growth and building a brighter future. Your role here is crucial and centered on **Real Project Experience**—you'll be working on industry-grade projects that deliver tangible impact.
+## Folder structure
 
-| Key Support    | Available to You                    |
-| :------------- | :---------------------------------- |
-| **Mentorship** | 24/7 Expert Guidance                |
-| **Learning**   | Access to Free Training & Resources |
+- `src/` — main JavaScript exercises and examples
+  - `day - 3/` — fundamentals and basic JS concepts
+  - `day - 4/` — object-related JavaScript examples
+  - other day folders contain additional practice tasks
+- `docs/` — notes and documentation for setup or project context
 
----
+## How to run the code
 
-## 🤝 Getting Started: Immediate Action
+Open your terminal in the project folder and use Node.js to run a file.
 
-Start with our **[Documentation Index](./docs/index.md)** for comprehensive guides on GitHub, VS Code, and project setup. Then follow [SETUP.md](./docs/SETUP.md) to configure your development environment.
+Example for day 3:
 
-## 📂 Key Files & Structure
+```powershell
+cd "c:\Users\Admin\Desktop\Worksapace\New folder\jay-sevak-2304030100554\src\day - 3"
+node fundamental.js
+```
 
-| Directory/File    | Purpose                                   | Action                                  |
-| :---------------- | :---------------------------------------- | :-------------------------------------- |
-| `/src`            | All primary source code.                  | This is where you write your code.      |
-| `/docs`           | Project requirements and architecture.    | Start with [index.md](./docs/index.md) for overview. |
-| `CONTRIBUTING.md` | Code standards and submission guidelines. | **MUST READ** before your first commit. |
+Example for day 4:
 
-## ❓ Need Help?
+```powershell
+cd "c:\Users\Admin\Desktop\Worksapace\New folder\jay-sevak-2304030100554\src\day - 4"
+node object.js
+node object2.js
+```
 
-- Connect to [Discord](https://discord.com/invite/B8brHwTMf) Channel.
+## Notes for readers
 
-We're glad to have you! Let's build something great together.
+- This is a learning repository, not a production project.
+- The code is organized by topic and day to show progress over time.
+- Use each file to review JavaScript concepts and experiment with examples.
+
+## Goal
+
+To present JavaScript learning clearly and practically, focusing on code examples and explanations instead of internship or project marketing details.
